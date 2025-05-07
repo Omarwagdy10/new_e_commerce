@@ -538,7 +538,7 @@ p, h1 , h2 , h3 , h4 ,h5 ,h6 {
 
 /* ======OWL-Coursel==================================== */
 .owl_carousel{
-  padding: 60px 0px;
+  padding: 60px 130px;
 }
 
 
@@ -548,10 +548,8 @@ p, h1 , h2 , h3 , h4 ,h5 ,h6 {
 }
 .item_data1{
   display: flex;
-  align-items: center;
-  gap: 10px;
-  justify-content: space-between;
-  padding-right:20px ;
+  align-items: center;  
+  gap: 20px;
 }
 
 
@@ -577,4 +575,27 @@ color: #A9ABB1;
 .item_data1_part2 .stars{
   color: #FFDA2B;
   font-size: 14px;
+}
+
+/* ========================================== */
+.backGround{
+  height: 350px;
+  margin: 60px 0px;
+  background-image: url('images/pexels-elina-sazonova-1838554.jpg');
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.backGround_data{
+  height: 100%;
+  display: flex;
+  gap: 50px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  color: whitesmoke;
+  font-weight: 700;
 }
