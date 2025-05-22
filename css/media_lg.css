@@ -1,0 +1,46 @@
+
+@media (width <1200px ) {
+
+.navbar-nav .nav-item a {
+  font-size: 14px;
+}
+
+.sec1 h1 {
+  font-size: 30px;
+  word-spacing: 2px;
+}
+.search p {
+font-size: 14px;
+}
+
+.sec1_card {
+  width: 22%;
+}
+
+.H_card_container {
+  justify-content: center;
+  gap: 15px;
+}
+
+.H_card {
+  width: 45%;
+}
+
+.Explore_card_container{
+
+  justify-content: center;
+  gap: 30px;
+}
+.Explore_card_container .Explore_card{
+    width: 45%;
+}
+
+.backGround_data{
+
+  font-size: 25px;
+
+}
+
+
+
+}
